@@ -1,5 +1,5 @@
-# ~          Đăng kí
-## ~          Regiser an account
+# Đăng kí
+## Regiser an account
 <html>
     <head>
         <meta charset="UTF-8">
