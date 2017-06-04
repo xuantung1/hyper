@@ -26,7 +26,7 @@
                 background-color: #656565;
                 background-image: url(https://github.com/HoangTheBoss/hyper/raw/master/Logo.png);
                 background-repeat: no-repeat;
-                background-size: 150px 150px;
+                background-size: 175px 175px;
             }
             .newStyle2 {
                 font-family: "Microsoft JhengHei";
