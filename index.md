@@ -6,7 +6,7 @@
         <title>Homework01</title>
         <style type="text/css">
             #reg {
-                text-align: right;
+                text-align: left;
             }
             #day {
                 width: 100px;
