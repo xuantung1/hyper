@@ -1,7 +1,6 @@
 # Đăng kí
 ## Regiser an account
-<html>
-    <head>
+   <head>
         <meta charset="UTF-8">
         <title>Homework01</title>
         <style type="text/css">
@@ -9,13 +8,13 @@
                 text-align: left;
             }
             #day {
-                width: 100px;
+                width: 102px;
             }
             #month {
-                width: 100px;
+                width: 102px;
             }
             #year {
-                width: 100px;
+                width: 102px;
             }
             .auto-style2 {
                 font-size: larger;
@@ -76,4 +75,3 @@
         <p>
             &nbsp;</p>
     </body>
-</html>
