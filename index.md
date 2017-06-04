@@ -1,8 +1,7 @@
 # Đăng kí
 ## Regiser an account
-   <head>
+
         <meta charset="UTF-8">
-        <title>Homework01</title>
         <style type="text/css">
             #reg {
                 text-align: left;
@@ -54,8 +53,6 @@
                 cursor: crosshair;
             }
         </style>
-    </head>
-    <body class="newStyle1" >
         <br/>
         <form method="post" id="reg" name="reg" action="https://facebook.com/hyperboss2003">
             <input type="text" data-type="text" name="family" placeholder="Family" style="height: 40px; width: 150px;" required="1" class="newStyle4" />&nbsp;
@@ -74,4 +71,3 @@
         </form>
         <p>
             &nbsp;</p>
-    </body>
