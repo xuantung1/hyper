@@ -1,8 +1,8 @@
 # Đăng kí
 ## Regiser an account
 
-        <meta charset="UTF-8">
-        <style type="text/css">
+<meta charset="UTF-8">
+<!--<style type="text/css">
             #reg {
                 text-align: left;
             }
@@ -52,9 +52,9 @@
             .newStyle9 {
                 cursor: crosshair;
             }
-        </style>
-        <br/>
-        <form method="post" id="reg" name="reg" action="https://facebook.com/hyperboss2003">
+</style>-->
+<br/>
+<form method="post" id="reg" name="reg" action="https://facebook.com/hyperboss2003">
             <input type="text" data-type="text" name="family" placeholder="Family" style="height: 40px; width: 150px;" required="1" class="newStyle4" />&nbsp;
             <input type="text" data-type="text" name="name" placeholder="Name" style="height: 40px; width: 150px;" required="1" class="newStyle5" /><br /><br />
             <input type="text" data-type="text" name="email" placeholder="Email" style="width: 322px; height: 40px;" required="1" class="newStyle6" /><br /><br />
@@ -68,6 +68,6 @@
             <label style="font-size: larger">Male</label><br /><br />
             <button type="submit" name="submit">
                 <img alt="" class="auto-style3" src="Submit.png" /></button>
-        </form>
-        <p>
-            &nbsp;</p>
+</form>
+<p>
+&nbsp;</p>
