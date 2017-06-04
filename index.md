@@ -1,3 +1,4 @@
+#Đăng kí
 <html>
     <head>
         <meta charset="UTF-8">
@@ -55,9 +56,7 @@
         </style>
     </head>
     <body class="newStyle1" >
-        <br />
-        <h1 style="text-align: right" class="newStyle2">Đăng kí tài khoản mới</h1>
-        <h2 style="text-align: right" class="newStyle3">Register new account</h2>
+        <br/>
         <form method="post" id="reg" name="reg" action="https://facebook.com/hyperboss2003">
             <input type="text" data-type="text" name="family" placeholder="Family" style="height: 40px; width: 150px;" required="1" class="newStyle4" />&nbsp;
             <input type="text" data-type="text" name="name" placeholder="Name" style="height: 40px; width: 150px;" required="1" class="newStyle5" /><br /><br />
