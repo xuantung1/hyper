@@ -67,12 +67,12 @@
             function submit() {
                 var reqfamily = document.forms["reg"]["family"].value;
                 var reqname = document.forms["reg"]["name"].value;
-                var reqmail = document.getElementByName("email");
-                var reqpass = document.getElementsByName("psswd");
-                var reqdob = document.getElementById("day");
-                var reqmob = document.getElementById("month");
-                var reqyob = document.getElementById("year");
-                var reqsex = document.getElementsByName("sex");
+                var reqmail = document.forms["reg"]["email"].value;
+                var reqpass = document.forms["reg"]["psswd"].value;
+                var reqdob = document.forms["reg"]["birthday_day"].value;
+                var reqmob = document.forms["reg"]["birthday_month"].value;
+                var reqyob = document.forms["reg"]["birthday_year"].value;
+                var reqsex = document.form["reg"]["sex"].value;
                 var allgood = true;
                 //family
                 if (reqfamily.valueOf.length < 1) {
