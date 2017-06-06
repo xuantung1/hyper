@@ -75,33 +75,33 @@
                 var reqsex = document.form["reg"]["sex"].value;
                 var allgood = true;
                 //family
-                if (reqfamily.valueOf.length < 1) {
-                    alert("Please type in your family name");
+                if (reqfamily == "") {
+                    alert("Family name must be filled out");
                     allgood = false;
                 }
                 //name
-                if (reqname.valueOf.length < 1) {
-                    alert("Please type in your name");
+                if (reqname == "") {
+                    alert("Name must be filled out");
                     allgood = false;
                 }
                 //email
-                if (reqmail.valueOf.length < 1) {
-                    alert("Please type in your email");
+                if (reqmail == "") {
+                    alert("Email must be filled out");
                     allgood = false;
                 }
                 //password
-                if (reqpass.valueOf.length < 1) {
-                    alert("Please type in new password");
+                if (reqpass == "") {
+                    alert("Password must be filled out");
                     allgood = false;
                 }
                 //dob
-                if (reqdob.value = 0) {
-                    alert("Please choose day of birth");
+                if (reqdob == "0") {
+                    alert("Day of birth must be choosed");
                     allgood = false;
                 }
                 //mob
-                if (reqmob.value = 0) {
-                    alert("Please choose month of birth");
+                if (reqmob == "0") {
+                    alert("Month of birth must be choosed");
                     allgood = false;
                 }
                 //finish
