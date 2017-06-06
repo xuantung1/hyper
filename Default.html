@@ -76,15 +76,20 @@
                 var allgood = true;
                 //family
                 if (reqfamily.valueOf.length < 1) {
-                    allgood = false
+                    alert("Please type in your family name");
+                    allgood = false;
                 }
-                else { allgood = true };
                 //name
                 if (reqname.valueOf.length < 1) {
-                    allgood = false
+                    alert("Please type in your name");
+                    allgood = false;
                 }
-                else { allgood = true };
-
+                //email
+                if (reqmail.valueOf.length < 1) {
+                    alert("Please type in your email");
+                    allgood = false;
+                }
+                //
                 //finish
                     if (allgood = false) {alert("Please fill in all required field!")}
                     else {}
