@@ -66,7 +66,7 @@
             <label style="font-size: larger">Female</label>
             <input type="radio" name="sex" value="2" class="newStyle9">
             <label style="font-size: larger">Male</label><br /><br />
-            <button type="submit" name="submit">
+            <button type="submit" name="submit" style="height: 40px; width: 522px;">
                 <img src="Submit.png" /></button>
 </form>
 <p>
