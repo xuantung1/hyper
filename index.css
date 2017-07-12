@@ -1,6 +1,6 @@
 ﻿@font-face {
     font-family: submit;
-    src: url(Kontakt.ttf)''
+    src: url(/Kontakt.ttf)''
 }
             #reg {
                 text-align: left;
@@ -35,17 +35,20 @@
                 background-repeat: no-repeat;
             }
             .newStyle2 {
-                font-family: 'Arial';
+                font-family: submit;
                 font-size: x-large;
             }
             .newStyle3 {
-                font-family: 'Microsoft NeoGothic';
+                font-family: submit;
                 font-size: large
             }
             .cursor {
                 cursor: crosshair;
+                border-radius: 10px;
+                border: 1.5px solid #2aa2aa;
+                padding-left: 2px;
             }
             .newStyle10 {
                 position: fixed;
-                right: 0px;
+                right: 200px;
             }
