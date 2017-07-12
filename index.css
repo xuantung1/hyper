@@ -1,0 +1,51 @@
+﻿@font-face {
+    font-family: submit;
+    src: url(Kontakt.ttf)''
+}
+            #reg {
+                text-align: left;
+            }
+            #day {
+                width: 100px;
+            }
+            #month {
+                width: 100px;
+            }
+            #year {
+                width: 100px;
+            }
+            .submit_img {
+                width: 308px;
+                height: 40px;
+                cursor: crosshair;
+                background-color: Highlight;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                font-family: submit;
+            }
+            .newStyle1 {
+                background-color: #656565;
+                background-image: url(https://github.com/HoangTheBoss/hyper/raw/master/Logo.png);
+                background-repeat: no-repeat;
+            }
+            .newStyle2 {
+                font-family: 'Arial';
+                font-size: x-large;
+            }
+            .newStyle3 {
+                font-family: 'Microsoft NeoGothic';
+                font-size: large
+            }
+            .cursor {
+                cursor: crosshair;
+            }
+            .newStyle10 {
+                position: fixed;
+                right: 0px;
+            }
