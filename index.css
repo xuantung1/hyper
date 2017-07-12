@@ -2,60 +2,67 @@
     font-family: submit;
     src: url(/Kontakt.ttf)''
 }
-            #reg {
-                text-align: left;
-            }
-            #day {
-                width: 100px;
-            }
-            #month {
-                width: 100px;
-            }
-            #year {
-                width: 100px;
-            }
-            .submit_img {
-                width: 308px;
-                height: 40px;
-                cursor: crosshair;
-                background-color: #3399FF;
-                border-radius: 10px;
-                border: 1.5px solid #3366CC;
-                color: black;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 20px;
-                margin: 4px 2px;
-                font-family: submit;
-            }
-            .newStyle1 {
-                background: #a1dbff;
-                background: -moz-linear-gradient(-45deg, #a1dbff 0%, #cbebff 53%, #f0f9ff 100%);
-                background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#a1dbff), color-stop(53%,#cbebff), color-stop(100%,#f0f9ff));
-                background: -webkit-linear-gradient(-45deg, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
-                background: -o-linear-gradient(-45deg, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
-                background: -ms-linear-gradient(-45deg, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
-                background: linear-gradient(135deg, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#f0f9ff',GradientType=1 );
-                background-image: url(https://github.com/HoangTheBoss/hyper/raw/master/Logo.png);
-                background-repeat: no-repeat;
-            }
-            .newStyle2 {
-                font-family: submit;
-                font-size: x-large;
-            }
-            .newStyle3 {
-                font-family: submit;
-                font-size: large
-            }
-            .cursor {
-                cursor: crosshair;
-                border-radius: 10px;
-                border: 1.5px solid #3366C;
-                padding-left: 2px;
-            }
-            .newStyle10 {
-                position: fixed;
-                right: 200px;
-            }
+#reg {
+    text-align: left;
+}
+#day {
+    width: 100px;
+}
+#month {
+    width: 100px;
+}
+#year {
+    width: 100px;
+}
+.submit_img {
+    width: 308px;
+    height: 40px;
+    cursor: crosshair;
+    background-color: #3399FF;
+    border-radius: 10px;
+    border: 1.5px solid #3366CC;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    font-family: submit;
+}
+html {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #a1dbff;
+    background: -moz-linear-gradient(-45deg, #a1dbff 0%, #cbebff 53%, #f0f9ff 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#a1dbff), color-stop(53%,#cbebff), color-stop(100%,#f0f9ff));
+    background: -webkit-linear-gradient(-45deg, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
+    background: -o-linear-gradient(-45deg, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
+    background: -ms-linear-gradient(-45deg, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
+    background: linear-gradient(135deg, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#f0f9ff',GradientType=1 );
+}
+.newStyle2 {
+    font-family: submit;
+    font-size: x-large;
+}
+.newStyle3 {
+    font-family: submit;
+    font-size: large;
+}
+.cursor {
+    cursor: crosshair;
+    border-radius: 10px;
+    border: 1.5px solid #3366CC;
+    padding-left: 2px;
+}
+.newStyle10 {
+    position: fixed;
+    right: 150px;
+}
+.head {
+    height: 50px;
+    background-image: url(Logo.png);
+}
