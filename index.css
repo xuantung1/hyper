@@ -11,7 +11,7 @@
     width: 100px;
 }
 .submit_img {
-    width: 308px;
+    width: 408px;
     height: 40px;
     cursor: crosshair;
     background-color: #3399FF;
@@ -23,33 +23,27 @@
     display: inline-block;
     font-size: 20px;
     margin: 4px 2px;
+}
+html {
     font-family: Helvetica, Arial, sans-serif;
 }
 body {
     height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background: #a1dbff;
-    background: -moz-linear-gradient(-45deg, #a1dbff 0%, #cbebff 53%, #f0f9ff 100%);
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#a1dbff), color-stop(53%,#cbebff), color-stop(100%,#f0f9ff));
-    background: -webkit-linear-gradient(-45deg, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
-    background: -o-linear-gradient(-45deg, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
-    background: -ms-linear-gradient(-45deg, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
-    background: linear-gradient(135deg, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#f0f9ff',GradientType=1 );
+    background: linear-gradient(270deg, #B9B9B9, #FF4646, #464646, #3162FF);
+    background-size: 800% 800%;
+    -webkit-animation: bggra 15s ease infinite;
+    -moz-animation: bggra 15s ease infinite;
+    -o-animation: bggra 15s ease infinite;
+    animation: bggra 15s ease infinite;
     margin-bottom: 0;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
 }
 .newStyle2 {
-    font-family: Helvetica, Arial, sans-serif;
     font-size: x-large;
 }
 .newStyle3 {
-    font-family: Helvetica, Arial, sans-serif;
     font-size: large;
 }
 .cursor {
@@ -57,6 +51,8 @@ body {
     border-radius: 5px;
     border: 0.5px solid #3366CC;
     padding-left: 2px;
+    font-weight: 600;
+    font-size: 12pt;
 }
 .newStyle10 {
     position: fixed;
@@ -79,3 +75,22 @@ body {
     border: 0.5px solid #3366CC;
     padding-left: 2px;
 }
+@-webkit-keyframes bggra {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes bggra {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes bggra {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes bggra { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
