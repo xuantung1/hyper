@@ -49,9 +49,8 @@ body {
 .cursor {
     cursor: crosshair;
     border-radius: 5px;
-    border: 0.5px solid #3366CC;
     padding-left: 2px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 12pt;
 }
 .newStyle10 {
@@ -60,14 +59,11 @@ body {
 }
 .head {
     height: 100px;
-    background: rgb(14,14,14);
-    background: -moz-linear-gradient(-45deg, rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%);
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(14,14,14,1)), color-stop(100%,rgba(125,126,125,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
-    background: linear-gradient(135deg, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#7d7e7d',GradientType=1 );
+    background: linear-gradient(314deg, #000000, #ffffff, #000000, #ffffff, #000000, #ffffff, #000000, #ffffff);
+    background-size: 1600% 1600%;
+    -webkit-animation: headerbgra 60s ease infinite;
+    -moz-animation: headerbgra 60s ease infinite;
+    animation: headerbgra 60s ease infinite;
 }
 .select {
     cursor: crosshair;
@@ -76,21 +72,93 @@ body {
     padding-left: 2px;
 }
 @-webkit-keyframes bggra {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 @-moz-keyframes bggra {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 @-o-keyframes bggra {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
-@keyframes bggra { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+@keyframes bggra {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@-webkit-keyframes headerbgra {
+    0% {
+        background-position: 0% 86%;
+    }
+
+    50% {
+        background-position: 100% 15%;
+    }
+
+    100% {
+        background-position: 0% 86%;
+    }
+}
+@-moz-keyframes headerbgra {
+    0% {
+        background-position: 0% 86%;
+    }
+
+    50% {
+        background-position: 100% 15%;
+    }
+
+    100% {
+        background-position: 0% 86%;
+    }
+}
+@keyframes headerbgra {
+    0% {
+        background-position: 0% 86%;
+    }
+
+    50% {
+        background-position: 100% 15%;
+    }
+
+    100% {
+        background-position: 0% 86%;
+    }
+}
